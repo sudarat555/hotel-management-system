@@ -8,17 +8,15 @@ services:
     environment:
       - DB_HOST=laravel-db
       - DB_USERNAME=root
-      - DB_DATABASE=BankAccount
+      - DB_DATABASE=Project
       - DB_PASSWORD=123456
-      # Database MySQL
     ports:
       - "8080:3000"
     networks:
       - laraveldev_net
     restart: always
     volumes:
-      - G:\88735059 - Database II\61160100\app:/app
-      - G:\88735059 - Database II\61160100\conf\php.ini:/opt/bitnami/php/conf/php.ini:ro
+      - D:\ProjectDB2\app:/app
 
   laravel-db:
     container_name: laravel-db
@@ -29,8 +27,8 @@ services:
       - laraveldev_net
     restart: always
     volumes:
-      - G:\88735059 - Database II\61160100\mysql:/var/lib/mysql
-      - G:\88735059 - Database II\61160100\data:/root
+      - D:\ProjectDB2\mysql:/var/lib/mysql
+      - D:\ProjectDB2\data:/root
 
   laravel-phpmyadmin:
     container_name: laravel-phpmyadmin
