@@ -29,6 +29,10 @@
                             <tr>
                                 <td>สี</td>
                                 <td><input type="text" name="Ctype_color" placeholder="rgb(0,0,0)" require></td>
+                            </tr>
+                            <tr>
+                                <td>ส่วนลด</td>
+                                <td><input type="text" name="Ctype_Discount" require></td>
                             </tr>          
                             <tr>
                                 <td colspan=2>

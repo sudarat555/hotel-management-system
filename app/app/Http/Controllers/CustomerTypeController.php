@@ -42,7 +42,8 @@ class CustomerTypeController extends Controller
             'Ctype_No' => 'required',
             'Ctype_Name' => 'required',
             'Ctype_Description' => 'required',
-            'Ctype_color' => 'required'
+            'Ctype_color' => 'required',
+            'Ctype_Discount' => 'required'
 
         ]);
 
@@ -51,7 +52,8 @@ class CustomerTypeController extends Controller
             'Ctype_No' => $request->Ctype_No,
             'Ctype_Name' => $request->Ctype_Name,
             'Ctype_Description' => $request->Ctype_Description,
-            'Ctype_color' => $request->Ctype_color         
+            'Ctype_color' => $request->Ctype_color,
+            'Ctype_Discount' => $request->Ctype_Discount   
 
         ]);
         return redirect('customertype');
@@ -95,7 +97,8 @@ class CustomerTypeController extends Controller
             'Ctype_No' => 'required',
             'Ctype_Name' => 'required',
             'Ctype_Description' => 'required',
-            'Ctype_color' => 'required'
+            'Ctype_color' => 'required',
+            'Ctype_Discount' => 'required'
 
         ]);
 
@@ -104,7 +107,8 @@ class CustomerTypeController extends Controller
             'Ctype_No' => $request->Ctype_No,
             'Ctype_Name' => $request->Ctype_Name,
             'Ctype_Description' => $request->Ctype_Description,
-            'Ctype_color' => $request->Ctype_color     
+            'Ctype_color' => $request->Ctype_color,
+            'Ctype_Discount' => $request->Ctype_Discount    
 
         ]);
         return redirect('customertype');

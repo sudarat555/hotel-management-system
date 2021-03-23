@@ -12,11 +12,13 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('customerdetail/calbill','CustomerDetailController@calbill')->name('customerdetail.calbill');
 Route::resource('roomdetail','RoomDetailController');
 Route::resource('roomtype','RoomTypeController');
 Route::resource('viewroomtype', 'VRTController');
 Route::resource('customertype', 'CustomerTypeController');
 Route::resource('viewcustomertype', 'VCTController');
+Route::resource('customerdetail', 'CustomerDetailController');
 
 Route::get('/', function () {
     return view('index');

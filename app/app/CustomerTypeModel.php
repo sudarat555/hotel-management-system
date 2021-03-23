@@ -8,6 +8,6 @@ class CustomerTypeModel extends Model
 {
     protected $table="CustomerTYPE";
     protected $fillable=[
-        'Ctype_No', 'Ctype_Name','Ctype_Description', 'Ctype_color'
+        'Ctype_No', 'Ctype_Name','Ctype_Description', 'Ctype_color', 'Ctype_Discount'
     ];
 }

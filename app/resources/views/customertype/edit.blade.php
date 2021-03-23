@@ -30,7 +30,19 @@
                             </tr>
                             <tr>
                                 <td>สี</td>
-                                <td><input type="text" name="Ctype_color" value="{{ $custype->Ctype_color }}" ></td>
+                                <td>
+                                    <select name="Ctype_color">
+                                        <option value="rgb(168,104,21)">Bronze</option>
+                                        <option value="rgb(192,192,192)">Silver</option>
+                                        <option value="rgb(255,215,0)">Gold</option>
+                                        <option value="rgb(185,242,255)">Diamond</option>
+                                        <option value="rgb(80,200,120)">Emerald</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ส่วนลด</td>
+                                <td><input type="text" name="Ctype_Discount" value="{{ $custype->Ctype_Discount }}" ></td>
                             </tr>
                             <tr>
                                 <td colspan=2>
