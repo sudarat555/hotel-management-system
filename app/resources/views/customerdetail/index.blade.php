@@ -12,6 +12,7 @@
                     <div>
                         <a class="btn btn-primary" href="{{ route('customerdetail.create') }}">Create Customer </a>
                         <a class="btn btn-primary" href="{{ route('customerdetail.calbill') }}">Billing </a>
+                        <a href="http://localhost:8080/" class="btn btn-warning">HOME</a>
                     </div>
                     <br>
                     <table border=1>

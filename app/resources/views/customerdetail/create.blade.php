@@ -41,7 +41,11 @@
                             <tr>
                                 <td>หมายเลขห้องพัก</td>
                                 <td><input type="text" name="Room_Number" require></td>
-                            </tr>          
+                            </tr>
+                            <tr>
+                                <td>ราคาห้องพักที่ต้องจ่าย</td>
+                                <td><input type="text" name="Customer_Bill" require></td>
+                            </tr>           
                             <tr>
                                 <td colspan=2>
                                 <button type="submit" class="btn btn-success">บันทึกข้อมูล</button>

@@ -46,7 +46,7 @@ body, html {
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="index.php" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+    <a href="http://localhost:8080/" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
     <a href="{{ route('customerdetail.index') }}" class="w3-bar-item w3-button w3-hide-small"> CUSTOMERDETAIL</a>
     <a href="{{ route('customertype.index') }}" class="w3-bar-item w3-button w3-hide-small"> CUSTOMERTYPE</a>
     <a href="{{ route('roomdetail.index') }}" class="w3-bar-item w3-button w3-hide-small"> ROOMDETAIL</a>

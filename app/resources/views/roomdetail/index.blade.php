@@ -11,6 +11,7 @@
                     <br>                   
                     <div>
                         <a class="btn btn-primary" href="{{ route('roomdetail.create') }}">Create Room</a>
+                        <a href="http://localhost:8080/" class="btn btn-warning">HOME</a>
                     </div>
                     <br>
                     <table border=1>

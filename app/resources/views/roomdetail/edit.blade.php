@@ -44,8 +44,8 @@
                                 <td>Status</td>
                                 <td>
                                     <select name="Room_Status">
-                                        <option value="ว่าง">ว่าง</option>
-                                        <option value="ไม่ว่าง">ไม่ว่าง</option>
+                                        <option value="Available">Available</option>
+                                        <option value="UnAvailable">UnAvailable</option>
                                     </select>
                                 </td>
                             </tr> 
