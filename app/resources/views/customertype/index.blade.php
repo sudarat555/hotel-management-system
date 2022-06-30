@@ -14,7 +14,7 @@
                         <a href="http://localhost:8080/" class="btn btn-warning">HOME</a>
                     </div>
                     <br>
-                    <table border=1>
+                    <table class="table table-bordered">
                         <tr>
                             <td align="center" >No</td>
                             <td align="center" >ชื่อ</td>

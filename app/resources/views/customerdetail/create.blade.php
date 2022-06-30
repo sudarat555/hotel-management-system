@@ -35,7 +35,7 @@
                                 <td><input type="text" name="Customer_Email" require></td>
                             </tr>
                             <tr>
-                                <td>ประเภทสมาชิก</td>
+                                <td>ระดับสมาชิก</td>
                                 <td><input type="text" name="Ctype_No" require></td>
                             </tr>
                             <tr>
@@ -44,7 +44,7 @@
                             </tr>
                             <tr>
                                 <td>ราคาห้องพักที่ต้องจ่าย</td>
-                                <td><input type="text" name="Customer_Bill" require></td>
+                                <td><input type="text" name="Customer_Bill" value="0" readonly ></td>
                             </tr>           
                             <tr>
                                 <td colspan=2>

@@ -60,6 +60,7 @@ class RoomDetailController extends Controller
             'Room_Status' => $request->Room_Status             
 
         ]);
+        return redirect('roomdetail');
     }
 
     /**
@@ -130,6 +131,6 @@ class RoomDetailController extends Controller
     public function destroy($id)
     {
         DB::table("RoomDT")->where('Room_Number', '=', $id)->delete();
-        return redirect('roomtdetail');
+        return redirect('roomdetail');
     }
 }

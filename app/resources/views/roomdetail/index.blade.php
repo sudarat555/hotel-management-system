@@ -12,9 +12,11 @@
                     <div>
                         <a class="btn btn-primary" href="{{ route('roomdetail.create') }}">Create Room</a>
                         <a href="http://localhost:8080/" class="btn btn-warning">HOME</a>
+                        <a class="btn btn-danger" href="{{ route('delroomdetail.index') }}">Delete History</a>
+                        <a class="btn btn-danger" href="{{ route('histroomdetail.index') }}">Edit History</a>
                     </div>
                     <br>
-                    <table border=1>
+                    <table class="table table-bordered">
                         <tr>
                             <td align="center" >หมายเลขห้องพัก</td>
                             <td align="center" >ชั้น</td>

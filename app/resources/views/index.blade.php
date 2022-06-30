@@ -51,8 +51,6 @@ body, html {
     <a href="{{ route('customertype.index') }}" class="w3-bar-item w3-button w3-hide-small"> CUSTOMERTYPE</a>
     <a href="{{ route('roomdetail.index') }}" class="w3-bar-item w3-button w3-hide-small"> ROOMDETAIL</a>
     <a href="{{ route('roomtype.index') }}" class="w3-bar-item w3-button w3-hide-small"> ROOMTYPE</a>
-    <a href="register.php" class="w3-bar-item w3-button w3-hide-small"> REGISTER</a>
-    <a href="longin.php" class="w3-bar-item w3-button w3-hide-small"> LOGIN</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a>

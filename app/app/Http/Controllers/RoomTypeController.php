@@ -56,6 +56,7 @@ class RoomTypeController extends Controller
             'Rtype_Pic' => $request->Rtype_Pic
 
         ]);
+        return redirect('roomtype');
     }
 
     /**

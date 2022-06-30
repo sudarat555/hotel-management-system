@@ -24,7 +24,10 @@ class CustomerDetailController extends Controller
     public function index()
     {
         // select * from Account
-        $custdetail = DB::table('CustomerDT')->get();
+        $custdetail = DB::table('CustomerDT')
+        ->join('CustomerTYPE', 'CustomerTYPE.Ctype_No', '=', 'CustomerDT.Ctype_No')
+        ->select('CustomerTYPE.*','CustomerDT.*')
+        ->get();
         return view('customerdetail.index', compact('custdetail'));
     }
 
@@ -71,6 +74,7 @@ class CustomerDetailController extends Controller
             'Customer_Bill' => $request->Customer_Bill
 
         ]);
+        return redirect('customerdetail');
     }
 
     /**

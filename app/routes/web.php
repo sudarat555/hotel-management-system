@@ -19,6 +19,10 @@ Route::resource('viewroomtype', 'VRTController');
 Route::resource('customertype', 'CustomerTypeController');
 Route::resource('viewcustomertype', 'VCTController');
 Route::resource('customerdetail', 'CustomerDetailController');
+Route::resource('delcustomerdetail', 'DelCustomerDetailController');
+Route::resource('histcustomerdetail', 'HistCustomerDetailController');
+Route::resource('delroomdetail','DelRoomDetailController');
+Route::resource('histroomdetail','HistRoomDetailController');
 
 Route::get('/', function () {
     return view('index');

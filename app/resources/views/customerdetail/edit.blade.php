@@ -37,7 +37,7 @@
                                 <td><input type="text" name="Customer_Email" value="{{ $custdt->Customer_Email }}" ></td>
                             </tr>
                             <tr>
-                                <td>ประเภทสมาชิก</td>
+                                <td>ระดับสมาชิก</td>
                                 <td><input type="text" name="Ctype_No" value="{{ $custdt->Ctype_No }}" ></td>
                             </tr>
                             <tr>
